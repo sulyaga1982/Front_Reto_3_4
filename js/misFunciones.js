@@ -59,7 +59,7 @@ function guardarInformacionCategorias(){
 ///////////////////Motorbikes//////////////////////////////////////
 function traerInformacionMotorbikes(){
     $.ajax({
-        url:"http://localhost:8080/api/Motorbike/all",
+        url:"http://144.22.238.113:8080/api/Motorbike/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -98,7 +98,7 @@ function guardarInformacionMotorbikes(){
         dataType: 'JSON',
         data: JSON.stringify(var3),
         
-        url:"http://localhost:8080/api/Motorbike/save",
+        url:"http://144.22.238.113:8080/api/Motorbike/save",
        
         
         success:function(response) {
@@ -121,7 +121,7 @@ function guardarInformacionMotorbikes(){
 //////////////////////Clientes//////////////////////////////////
 function traerInformacionClientes(){
     $.ajax({
-        url:"http://localhost:8080/api/Client/all",
+        url:"http://144.22.238.113:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
